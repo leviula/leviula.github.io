@@ -1,0 +1,94 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} 
+
+img {
+    width: 100%; 
+     display: block;
+}
+
+div.container {
+    max-width: 60em;
+    margin: auto;
+}
+
+header {
+    background-color: #ff8019;
+    padding: 2em 2em 1.5em 2em;
+}
+
+h1 {
+    font-family: Sutro, serif;  
+    font-weight: 700;  
+    font-style: normal;
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-family: Sutro, serif;  
+    font-weight: 300;  
+    font-style: normal;
+    font-size: 1.5em;
+    color: #ffcca3;
+}
+
+figure {
+    margin-bottom: 1em;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+figcaption {
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: italic;
+    margin: 1em 2em;
+}
+
+main {
+    margin: 3em 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+}
+
+h3 {
+    font-family: Sutro, serif;  
+    font-weight: 300;  
+    font-style: normal;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: #ff8019;
+    margin: 1em 0em;
+}
+
+section {
+    margin: 0em 1em 3em 1em;
+    border-top: 2px solid #ff8019;
+}
+
+li {
+    margin: 1em 0em;
+    font-family: poppins, sans-serif;  
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
+    font-size: 1em;
+}
+
+footer{
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
+
+    background-color: #ff8019;
+    padding: 1em 2em;
+    color: #e6e6e6;
+}
