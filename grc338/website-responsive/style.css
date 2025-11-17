@@ -175,5 +175,10 @@ nav ul li {
 	display: inline;
 	padding-right: 1em;
 }
+
+article.contact {
+	max-width: 30em;
+	margin: auto;
+}
     
 }
