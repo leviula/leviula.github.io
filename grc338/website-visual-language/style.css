@@ -1,0 +1,504 @@
+/*RESET*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+/* ------------------------------------
+   GENERAL STYLES
+------------------------------------ */
+
+body {
+	font-family: "newshound", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	}
+
+main { 
+	padding: 1em 2em 6em;	
+	}
+
+img {
+    width: 100%; /*Please leave this line.*/
+     display: block;
+	}
+
+div.container { 
+	position: relative;
+	min-height: 100vh;
+	max-width: 60em;
+	
+	margin: auto;
+	background-color: #fff;
+	}
+
+h1 {
+	width: 10em;
+	}
+
+h2 {
+	font-family: "newshound-subhead", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 3em;
+	
+	margin: 1em 0em 0em;
+	text-transform: uppercase;
+	}
+
+h3 {
+	font-family: "newshound", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 2em;
+	
+	margin: 1em 0em 0em;
+	}
+
+h4 {
+	font-size: 1.5em;
+	}
+
+ul li 	{
+	list-style-type: none;
+	}
+
+a {
+	text-decoration: none;	
+	}
+
+p {
+	margin: 0em 0em 1em;
+	}
+
+article {
+	max-width: 30em;
+	margin: 3em auto;
+	}
+
+address, address a {
+	color: #000;
+}
+
+address:hover, address a:hover {
+	color: #a97e08;
+	transform: translateY(-2px);
+}
+
+/* ------------------------------------
+   SITE WIDE
+------------------------------------ */
+header {
+	background: #ffd152;
+	padding: 1.5em 1em 1em;	
+	}
+
+.nav-content {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	
+	max-width: 60em;
+	margin: auto;
+	}
+
+nav ul  {
+	text-align: right;
+	font-family: "newshound-subhead", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	}
+
+nav ul li {
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 1em;
+	}
+
+nav ul li a {
+	color: #000;
+	padding: 0.4em 0.5em 0.4em;
+	}
+
+nav ul li a:hover {
+	color: #666;
+}
+
+.selected a {
+	color: #ffd152;
+	border: 1px solid #fff;
+	background-color: #fff;
+	border-radius: 0.2rem;
+	}
+
+.selected a:hover {
+	color: #ffe8aa;
+}
+
+footer {
+	width: 100%;
+	height: 3rem; 
+	box-sizing: border-box;
+	padding: 0.75em 1em;
+	background: #2b2b2b;
+	}
+
+footer p {
+	margin: auto;
+	max-width: 60em;
+	color: #fff;
+	}
+
+figure {
+	margin-bottom: 1em;
+	}
+
+/* ------------------------------------
+   MENU PAGE
+------------------------------------ */
+
+/*Product Item*/
+
+.catalog ul {
+	margin: 0em 0em 2em;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.catalog li a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.catalog img {
+	max-width: 10em;
+}
+
+.catalog h4 {
+	text-align: center;
+}
+
+.catalog a:hover img {
+    transform: scale(1.06);
+}
+
+.catalog a:hover h4 {
+    transform: translateY(-2px);
+    color: #e9b52e; 
+}
+
+.catalog a {
+	color: #000;
+}
+
+.top-hits {
+	margin-top: 6em;
+
+}
+
+.top-hits ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 2em;
+}
+
+
+.top-hits div {
+	display: flex;
+	flex-direction: row;
+}
+
+.top-hits li a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #000;
+}
+
+.top-hits img {
+	max-width: 8em;
+	filter: drop-shadow(0 6px 16px rgba(187, 166, 6, 0.55));
+	display: inline;
+}
+
+.top-hits a p {
+	max-width: 8em;
+	text-align: center;
+}
+
+.rank {
+	font-size: 3em;
+	color: #e9b52e;
+}
+
+.top-hits a:hover img {
+	transform: scale(1.06);
+
+}
+
+.top-hits a:hover p {
+	transform: translateY(-2px);
+    color: #e9b52e;
+}
+
+.top-hits a:hover .rank {
+	transform: scale(1.06);
+}
+
+main h2 {
+	border-bottom: 6px solid #ffd152;
+	margin-bottom: 0.5em;
+}
+
+.description {
+	grid-column: 1/3;
+	margin: 0;
+	
+	font-style: italic;
+	font-size: 1em;
+	}	
+
+.price, 
+.big-price {
+	grid-column: 2/3;
+	margin: 0;
+
+	color: #000;
+	text-align: right;
+	font-size: 1.2em;
+	}
+	
+.big-price {
+	font-size: 1.5em;
+	}
+
+
+.menu {
+	margin-top: 6em;
+}
+
+.menu ul {
+	margin-bottom: 8em;
+	}
+
+.menu ul li {
+	margin: 1em 0em 2em;
+	
+	display: grid;
+	grid-template-columns: 1fr auto;
+	grid-template-rows: auto 1fr;
+	}	
+
+.menu li:hover {
+	transform: translateY(-2px);
+	color: #a97e08;
+}
+
+li:hover .price,
+li:hover .big-price {
+	color: #a97e08;
+}
+	
+.happy-item {
+	border: 2px solid #ffc31f;
+  	border-radius: 0.5rem;
+  	padding: 0.5em 1em;
+  	background-color: #fff;
+	}
+
+.happy-item:hover{
+	border: 2px solid #ffe8aa;
+	}
+
+.ani {
+	border: 2px solid #E63946;
+	}
+
+.ani:hover {
+	border: 2px solid #e79ea4;
+}
+
+.ani:hover h4, 
+.menu li.ani:hover .big-price {
+	color: #E63946;
+}
+
+.ani:hover p {
+	color: #000;
+}
+
+.popular-item:hover :is(h4, p, .big-price){
+	color: #7C3AED;
+}
+
+
+/*TAGS*/
+.tag {
+  font-size: 0.75rem;
+  padding: 0.3em 0.7em;
+  border-radius: 0.2rem;
+  color: #fff; 
+	}
+
+.happy-tag {
+	background-color: #ffc31f;
+	}
+
+.no-caf {
+	background-color: #5C8E6F;	
+	}
+
+.popular {
+	background-color: #7C3AED;
+	}
+
+.ani-tag {
+	background-color: #E63946;
+	text-transform: uppercase;	
+	}
+
+	
+/* ------------------------------------
+   HOME PAGE
+------------------------------------ */
+
+.home-container { 
+	background: url(images/home-background.jpg) center center fixed;
+	background-size: cover;
+	position: relative;
+	min-height: 100vh;
+	
+	background-color: #fff;
+	}
+
+
+.home-container .home-content {
+	max-width: 60em;
+	margin: auto;
+	}
+
+.slogan {
+	font-family: "newshound", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #000;	
+	font-style: italic;
+	font-size: 4.5em;
+	line-height: 1.1;
+	color: #ffd152;
+	text-shadow:
+  	0 0 0.1875rem rgba(0,0,0,0.7),
+  	0 0 0.5rem rgba(0,0,0,0.5),
+  	0 0.125rem 0.375rem rgba(0,0,0,0.9);
+
+	margin: 2em auto 0.3em;
+	}
+
+.home-container address, .home-container address a {
+	color: #fff;
+}
+
+.home-container address {
+	background: rgba(0,0,0,0.45);
+	padding: 0.4em 0.7em;
+	border-radius: 0.3em;
+	display: inline-block;
+}
+
+.eta a {
+	display: block;
+	width: 8em;
+	height: auto;
+	font-size: 1.2em;
+	padding: 0.5em 2em;
+	border-radius: 0.2rem;
+	color: #000; 
+	background-color: #ffd152;
+	text-transform: uppercase;
+	text-shadow: none;
+	margin-top: 2em;
+
+}
+
+.eta a:hover {
+  background-color: #ffc31f;
+  color: #fff;
+}
+
+.home-content article {
+	margin-top: 16em;
+	background-color: #f8b955;
+}
+
+/* ------------------------------------
+   CONTACT PAGE
+------------------------------------ */
+
+.contact{
+	margin: 3em auto 0em 1em;
+	}
+
+.contact h3 {
+	margin: 2em 0em 0.2em;
+	}
+
+.icon img {
+	display: inline;
+	width: 1em;
+	height: 1em;
+}
+
+.hours:hover {
+	color: #a97e08;
+	transform: translateY(-2px);
+}
+
+/* ------------------------------------
+   ABOUT PAGE
+------------------------------------ */
+
+.tagline {
+	margin: 1em 0em;
+	color:#ffc31f;
+	}
+
+/* ------------------------------------
+   UTILITIES
+------------------------------------ */
+
+.back-to-top {
+	display: flex;
+	justify-self: center;
+	font-size: 0.9rem;
+	color: #000;
+	text-decoration: none;
+}
+
+.back-to-top:hover {
+	color: #666;
+}
+
+/* ------------------------------------
+   MEDIA SCREEN
+------------------------------------ */
+@media screen and (min-width: 60em) {
+
+	.menu ul{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 6em;
+	}
+
+	nav ul li {
+	display: inline;
+	padding-right: 1em;
+	}
+
+	.catalog ul {
+	display: flex;
+	flex-direction: row;
+	margin: 0em 0em 2em;
+	gap: 4em;
+	}
+
+
+}
