@@ -10,16 +10,16 @@ body {
 	font-family: "newshound", sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	}
+}
 
 main { 
 	padding: 1em 2em 6em;	
-	}
+}
 
 img {
-    width: 100%; /*Please leave this line.*/
-     display: block;
-	}
+    width: 100%; 
+    display: block;
+}
 
 div.container { 
 	position: relative;
@@ -28,11 +28,11 @@ div.container {
 	
 	margin: auto;
 	background-color: #fff;
-	}
+}
 
 h1 {
-	width: 10em;
-	}
+	max-width: 10em;
+}
 
 h2 {
 	font-family: "newshound-subhead", sans-serif;
@@ -42,7 +42,7 @@ h2 {
 	
 	margin: 1em 0em 0em;
 	text-transform: uppercase;
-	}
+}
 
 h3 {
 	font-family: "newshound", sans-serif;
@@ -51,28 +51,28 @@ h3 {
 	font-size: 2em;
 	
 	margin: 1em 0em 0em;
-	}
+}
 
 h4 {
 	font-size: 1.5em;
-	}
+}
 
-ul li 	{
+ul li {
 	list-style-type: none;
-	}
+}
 
 a {
 	text-decoration: none;	
-	}
+}
 
 p {
 	margin: 0em 0em 1em;
-	}
+}
 
 article {
 	max-width: 30em;
 	margin: 3em auto;
-	}
+}
 
 address, address a {
 	color: #000;
@@ -89,7 +89,7 @@ address:hover, address a:hover {
 header {
 	background: #ffd152;
 	padding: 1.5em 1em 1em;	
-	}
+}
 
 .nav-content {
 	display: grid;
@@ -97,25 +97,25 @@ header {
 	
 	max-width: 60em;
 	margin: auto;
-	}
+}
 
-nav ul  {
+nav ul {
 	text-align: right;
 	font-family: "newshound-subhead", sans-serif;
 	font-weight: 600;
 	font-style: normal;
-	}
+}
 
 nav ul li {
 	text-transform: uppercase;
 	font-weight: bold;
 	margin-bottom: 1em;
-	}
+}
 
 nav ul li a {
 	color: #000;
 	padding: 0.4em 0.5em 0.4em;
-	}
+}
 
 nav ul li a:hover {
 	color: #666;
@@ -125,30 +125,29 @@ nav ul li a:hover {
 	color: #ffd152;
 	border: 1px solid #fff;
 	background-color: #fff;
-	border-radius: 0.2rem;
-	}
+	border-radius: 0.2em;
+}
 
 .selected a:hover {
 	color: #ffe8aa;
 }
 
 footer {
-	width: 100%;
-	height: 3rem; 
+	height: 3em; 
 	box-sizing: border-box;
 	padding: 0.75em 1em;
 	background: #2b2b2b;
-	}
+}
 
 footer p {
 	margin: auto;
 	max-width: 60em;
 	color: #fff;
-	}
+}
 
 figure {
 	margin-bottom: 1em;
-	}
+}
 
 /* ------------------------------------
    MENU PAGE
@@ -191,7 +190,6 @@ figure {
 
 .top-hits {
 	margin-top: 6em;
-
 }
 
 .top-hits ul {
@@ -200,7 +198,6 @@ figure {
 	flex-wrap: wrap;
 	gap: 2em;
 }
-
 
 .top-hits div {
 	display: flex;
@@ -232,7 +229,6 @@ figure {
 
 .top-hits a:hover img {
 	transform: scale(1.06);
-
 }
 
 .top-hits a:hover p {
@@ -255,7 +251,7 @@ main h2 {
 	
 	font-style: italic;
 	font-size: 1em;
-	}	
+}	
 
 .price, 
 .big-price {
@@ -265,12 +261,11 @@ main h2 {
 	color: #000;
 	text-align: right;
 	font-size: 1.2em;
-	}
+}
 	
 .big-price {
 	font-size: 1.5em;
-	}
-
+}
 
 .menu {
 	margin-top: 6em;
@@ -286,7 +281,7 @@ main h2 {
 	display: grid;
 	grid-template-columns: 1fr auto;
 	grid-template-rows: auto 1fr;
-	}	
+}	
 
 .menu li:hover {
 	transform: translateY(-2px);
@@ -300,18 +295,18 @@ li:hover .big-price {
 	
 .happy-item {
 	border: 2px solid #ffc31f;
-  	border-radius: 0.5rem;
+  	border-radius: 0.5em;
   	padding: 0.5em 1em;
   	background-color: #fff;
-	}
+}
 
 .happy-item:hover{
 	border: 2px solid #ffe8aa;
-	}
+}
 
 .ani {
 	border: 2px solid #E63946;
-	}
+}
 
 .ani:hover {
 	border: 2px solid #e79ea4;
@@ -330,31 +325,30 @@ li:hover .big-price {
 	color: #7C3AED;
 }
 
-
 /*TAGS*/
 .tag {
-  font-size: 0.75rem;
-  padding: 0.3em 0.7em;
-  border-radius: 0.2rem;
-  color: #fff; 
-	}
+	font-size: 0.75rem;
+	padding: 0.3em 0.7em;
+	border-radius: 0.2rem;
+	color: #fff; 
+}
 
 .happy-tag {
 	background-color: #ffc31f;
-	}
+}
 
 .no-caf {
 	background-color: #5C8E6F;	
-	}
+}
 
 .popular {
 	background-color: #7C3AED;
-	}
+}
 
 .ani-tag {
 	background-color: #E63946;
 	text-transform: uppercase;	
-	}
+}
 
 	
 /* ------------------------------------
@@ -368,13 +362,13 @@ li:hover .big-price {
 	min-height: 100vh;
 	
 	background-color: #fff;
-	}
+}
 
 
 .home-container .home-content {
 	max-width: 60em;
 	margin: auto;
-	}
+}
 
 .slogan {
 	font-family: "newshound", sans-serif;
@@ -386,12 +380,12 @@ li:hover .big-price {
 	line-height: 1.1;
 	color: #ffd152;
 	text-shadow:
-  	0 0 0.1875rem rgba(0,0,0,0.7),
-  	0 0 0.5rem rgba(0,0,0,0.5),
-  	0 0.125rem 0.375rem rgba(0,0,0,0.9);
+  	0 0 0.1875em rgba(0,0,0,0.7),
+  	0 0 0.5em rgba(0,0,0,0.5),
+  	0 0.125em 0.375em rgba(0,0,0,0.9);
 
 	margin: 2em auto 0.3em;
-	}
+}
 
 .home-container address, .home-container address a {
 	color: #fff;
@@ -406,28 +400,91 @@ li:hover .big-price {
 
 .eta a {
 	display: block;
-	width: 8em;
-	height: auto;
+	max-width: 8em;
 	font-size: 1.2em;
 	padding: 0.5em 2em;
-	border-radius: 0.2rem;
+	border-radius: 0.2em;
 	color: #000; 
 	background-color: #ffd152;
 	text-transform: uppercase;
 	text-shadow: none;
 	margin-top: 2em;
-
 }
 
 .eta a:hover {
-  background-color: #ffc31f;
-  color: #fff;
+	background-color: #ffc31f;
+	color: #fff;
+	transform: translateY(-2px);
+	box-shadow: 0 6px 14px rgba(0,0,0,0.25);
 }
 
-.home-content article {
-	margin-top: 16em;
-	background-color: #f8b955;
+.story {
+	padding: 12em 0em;
+	background: linear-gradient(
+	to bottom,
+	rgba(255, 255, 255, 0) 0%,
+	rgba(255, 255, 255, 1) 40%,
+	rgba(255, 255, 255, 1) 100%
+);
 }
+
+.story ul {
+	display: flex;
+  	flex-direction: column;
+  	gap: 2em;
+	margin-top: 2em;
+}
+
+.story li {
+	border-radius: 0.5em;
+
+	margin-left: 4em;
+	padding: 0.2em 1em 1em;
+	max-width: 20em;
+
+	transition: 
+    transform 0.3s ease,
+    opacity 0.3s ease;
+}
+
+.story h3 {
+	margin-top: 4em;
+}
+
+.values-button {
+	max-width: 4em;
+	padding: 0.5em 1em;
+	color: #fff;
+	background-color: #e9b52e;
+	border-radius: 0.5em;
+}
+
+.story li p {
+	font-style: italic;
+	margin-bottom: 2em;
+}
+
+.story ul:hover li {
+  opacity: 0.35;
+  transform: scale(0.95);
+}
+
+.story ul:hover li:hover {
+  opacity: 1;
+  transform: scale(1.05);
+  box-shadow: 
+    0 0 0 4px #ffd152,
+    0 12px 30px rgba(255, 209, 82, 0.45);
+
+  color: #000;
+  background-color: #ffd152;
+}
+
+.story ul:hover li:hover .values-button {
+	background-color: #000;
+	color: #ffc31f;
+}
+
 
 /* ------------------------------------
    CONTACT PAGE
@@ -435,15 +492,15 @@ li:hover .big-price {
 
 .contact{
 	margin: 3em auto 0em 1em;
-	}
+}
 
 .contact h3 {
 	margin: 2em 0em 0.2em;
-	}
+}
 
 .icon img {
 	display: inline;
-	width: 1em;
+	max-width: 1em;
 	height: 1em;
 }
 
@@ -459,7 +516,7 @@ li:hover .big-price {
 .tagline {
 	margin: 1em 0em;
 	color:#ffc31f;
-	}
+}
 
 /* ------------------------------------
    UTILITIES
@@ -468,7 +525,7 @@ li:hover .big-price {
 .back-to-top {
 	display: flex;
 	justify-self: center;
-	font-size: 0.9rem;
+	font-size: 0.9em;
 	color: #000;
 	text-decoration: none;
 }
@@ -481,8 +538,7 @@ li:hover .big-price {
    MEDIA SCREEN
 ------------------------------------ */
 @media screen and (min-width: 60em) {
-
-	.menu ul{
+	.menu ul {
 	display: grid;
 	grid-template-columns: auto auto;
 	grid-column-gap: 6em;
@@ -499,6 +555,4 @@ li:hover .big-price {
 	margin: 0em 0em 2em;
 	gap: 4em;
 	}
-
-
 }
