@@ -12,10 +12,6 @@ body {
 	font-style: normal;
 }
 
-main { 
-	padding: 1em 2em 6em;	
-}
-
 img {
     width: 100%; 
     display: block;
@@ -25,6 +21,7 @@ div.container {
 	position: relative;
 	min-height: 100vh;
 	max-width: 60em;
+	padding: 1em 2em 6em;	
 	
 	margin: auto;
 	background-color: #fff;
@@ -196,6 +193,7 @@ figure {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	justify-content: center;   
 	gap: 2em;
 }
 
@@ -364,10 +362,13 @@ li:hover .big-price {
 	background-color: #fff;
 }
 
+.home-container section {
+	padding: 1em 2em 6em;	
+}
 
-.home-container .home-content {
+.home-content {
 	max-width: 60em;
-	margin: auto;
+	margin: auto;	
 }
 
 .slogan {
@@ -379,6 +380,7 @@ li:hover .big-price {
 	font-size: 4.5em;
 	line-height: 1.1;
 	color: #ffd152;
+
 	text-shadow:
   	0 0 0.1875em rgba(0,0,0,0.7),
   	0 0 0.5em rgba(0,0,0,0.5),
@@ -419,7 +421,7 @@ li:hover .big-price {
 }
 
 .story {
-	padding: 12em 0em;
+	padding: 12em 2em;
 	background: linear-gradient(
 	to bottom,
 	rgba(255, 255, 255, 0) 0%,
@@ -437,10 +439,8 @@ li:hover .big-price {
 
 .story li {
 	border-radius: 0.5em;
-
-	margin-left: 4em;
 	padding: 0.2em 1em 1em;
-	max-width: 20em;
+	max-width: 24em;
 
 	transition: 
     transform 0.3s ease,
@@ -465,19 +465,19 @@ li:hover .big-price {
 }
 
 .story ul:hover li {
-  opacity: 0.35;
-  transform: scale(0.95);
+	opacity: 0.35;
+	transform: scale(0.95);
 }
 
 .story ul:hover li:hover {
-  opacity: 1;
-  transform: scale(1.05);
-  box-shadow: 
-    0 0 0 4px #ffd152,
-    0 12px 30px rgba(255, 209, 82, 0.45);
+	opacity: 1;
+	transform: scale(1.05);
+	box-shadow: 
+		0 0 0 4px #ffd152,
+		0 12px 30px rgba(255, 209, 82, 0.45);
 
-  color: #000;
-  background-color: #ffd152;
+	color: #000;
+	background-color: #ffd152;
 }
 
 .story ul:hover li:hover .values-button {
@@ -521,10 +521,12 @@ li:hover .big-price {
 /* ------------------------------------
    UTILITIES
 ------------------------------------ */
-
 .back-to-top {
 	display: flex;
-	justify-self: center;
+	justify-content: center;
+}
+
+.back-to-top a {
 	font-size: 0.9em;
 	color: #000;
 	text-decoration: none;
@@ -554,5 +556,11 @@ li:hover .big-price {
 	flex-direction: row;
 	margin: 0em 0em 2em;
 	gap: 4em;
+	}
+}
+
+@media (max-width: 30em) {
+	.home-container {
+		background: url(images/home-bg-mobile.png) center center fixed;
 	}
 }
