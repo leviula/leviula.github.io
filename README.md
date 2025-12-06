@@ -1,6 +1,9 @@
 # Front-End Development Portfolio
 This collection documents the step-by-step development of websites built across multiple web design courses. Instead of only final outcomes, it highlights the design and technical decisions made at each stage.
 
+## Live Sites
+https://leviula.github.io/grc338/website-visual-language/
+
 ### These projects demonstrate:
 - HTML and CSS fundamentals
 - Layout systems (Flexbox, Grid)
@@ -21,5 +24,3 @@ This collection documents the step-by-step development of websites built across 
 # Happy Regular Brand Website
 This project demonstrates the application of visual language, brand identity, and responsive layout principles through the design and development of a café-style website. The site translates a brand concept into a cohesive digital experience using structured layout systems, typographic hierarchy, color, and interactive elements.
 
-### You can view the final website here
-https://leviula.github.io/grc338/website-visual-language/
