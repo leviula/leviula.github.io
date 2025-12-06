@@ -1,6 +1,8 @@
 # Front-End Development Portfolio
 This collection documents the step-by-step development of websites built across multiple web design courses. Instead of only final outcomes, it highlights the design and technical decisions made at each stage.
 
+<img src="images/happy.png" alt="Demonstration Image">
+
 ## Live Sites
 1. Happy Regular Brand Website – https://leviula.github.io/grc338/website-visual-language/
 
