@@ -26,3 +26,11 @@ This collection documents the step-by-step development of websites built across 
 # Project 1: Happy Regular Brand Website
 This project demonstrates the application of visual language, brand identity, and responsive layout principles through the design and development of a café-style website. The site translates a brand concept into a cohesive digital experience using structured layout systems, typographic hierarchy, color, and interactive elements.
 
+<img src ="images/menu.png" alt="Main Menu page showing brand's catalog."> 
+
+#### It focuses on:
+- Building a consistent visual identity through color, type, and spacing
+- Implementing responsive layouts with Flexbox and Grid
+- Designing clear navigation and content hierarchy
+- Creating interaction states for hover, focus, and user feedback
+- Applying real-world layout constraints for menu systems and hero sections
