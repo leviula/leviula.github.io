@@ -17,3 +17,9 @@ This collection documents the step-by-step development of websites built across 
 - Files are meant to be viewed individually, not as a single unified production build.
 - Earlier assignments may appear simpler or less refined than later ones by design.
 - Later snapshots reflect stronger layout control, hierarchy, and responsiveness.
+
+## Happy Regular Brand Website
+This project demonstrates the application of visual language, brand identity, and responsive layout principles through the design and development of a café-style website. The site translates a brand concept into a cohesive digital experience using structured layout systems, typographic hierarchy, color, and interactive elements.
+
+### You can view the final website here
+https://leviula.github.io/grc338/website-visual-language/
