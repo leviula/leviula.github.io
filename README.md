@@ -8,7 +8,7 @@ This collection documents the step-by-step development of websites built across 
 - Visual hierarchy, spacing, and interaction states
 - Debugging and iterative refinement
 
-## This collection is preserved intentionally to document:
+### This collection is preserved intentionally to document:
 - My learning progression in front-end development
 - How design decisions evolve through iteration
 - My ability to translate layout and interaction concepts into code
